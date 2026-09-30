@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s ease-in-out;
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+
+}
+
+header {
+    height: 100vh;
+}
+
+nav {
+    background: #490404;
+    padding: 31px 0;
+}
+
+.ota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ul-ota {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: start;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.twitter {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.discord {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.youtube {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.tg {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.ul-ota li:hover {
+    border-bottom: 1px solid white;
+}
+
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase-title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    max-width: 480px;
+}
+
+body {
+    background: #000;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 60.61px;
+    color: #FFFFFF;
+    padding-bottom: 41px;
+    max-width: 480px;
+}
+
+.header-img {
+    padding-top: 79px;
+    display: flex;
+    justify-content: center;
+}
+
+.bnt {
+    padding: 22px 40px;
+    color: #000;
+    background: #8DFD1B;
+    width: 203.59;
+    height: 60px;
+    border: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.bnt:hover {
+    color: #8DFD1B;
+    background: #000;
+    cursor: pointer;
+}
+
+.header-bnt {
+    padding-top: 115px;
+}
+
+.roadmap {
+    width: 227;
+    height: 46px;
+    top: 2px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45.48px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 97px;
+    position: relative;
+    z-index: 2;
+}
+
+.ota-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 140px;
+    padding-top: 102px;
+    position: relative;
+    z-index: 2;
+}
+
+.circles {
+    position: absolute;
+    z-index: 3;
+}
+
+.circles img {
+    width: 600px;
+    height: 600px;
+    display: block;
+}
+
+.circles-1 {
+    top: 700px;
+    left: 30px;
+}
+
+.circles-2 {
+    top: 1200px;
+    right: 29px;
+}
+
+.circles-3 {
+    top: 1650px;
+    left: 34px;
+}
+
+.bola {
+    width: 540;
+    height: 271px;
+    top: 45px;
+    left: 90px;
+    border: 1px solid #8DFD1B;
+    background: #222222;
+}
+
+.nevara {
+    width: 539px;
+    height: 70px;
+    top: 1px;
+    left: 1px;
+    border: 1px solid #8DFD1B;
+    display: flex;
+}
+
+.nevara-1 {
+    width: 538.8px;
+    height: 199.5px;
+    top: 70.63px;
+    left: 0.75px;
+    border: 1px solid #8DFD1B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.XD {
+    padding: 30px 74.75px 30px 12px;
+}
+
+.ota-number {
+    padding: 12px 11.75px 13px 12px;
+}
+
+.number {
+    width: 45px;
+    height: 45px;
+    top: 12px;
+    left: 12px;
+    color: #000;
+    background: #8DFD1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28.43px;
+
+}
+
+.number-title {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27.73px;
+    color: #FFFFFF;
+
+}
+
+.nevara-title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 32px;
+
+}
+
+.WAVE {
+    width: 129px;
+    height: 129px;
+    top: 29.75px;
+    left: 397.25px;
+    border-radius: 8px;
+}
+
+.ota-WAVE {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 29.75px 12.25px 30px 74.75px;
+}
+
+.number-2 {
+    width: 45px;
+    height: 45px;
+    top: 12px;
+    left: 12px;
+    color: #8DFD1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28.43px;
+    border: 1px solid #8DFD1B;
+}
+
+.main-title2 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 45.48px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 201px;
+}
+
+.ota-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 96px;
+}
+
+.shaky {
+    width: 320px;
+    height: 320px;
+}
+
+.nevara-title2 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27.73px;
+    color: #FFFFFF;
+}
+
+.nevara-title3 {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #8DFD1B;
+}
+
+.in {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.nevara-title4 {
+    width: 238px;
+    height: 58px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19.2px;
+    color: #FFFFFF;
+}
+
+.bola-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.m1 {
+    padding-top: 19px;
+}
+
+.m2 {
+    padding-top: 18px;
+}
+
+.m3 {
+    padding-top: 22px;
+}
+
+.m4 {
+    padding-top: 21px;
+}
+
+.foot {
+    background: #42006A;
+    margin-top: 100px;
+}
+
+.XZ {
+    display: flex;
+    justify-content: space-between;
+    padding: 101px 140px 50px 140px;
+    color: #FFFFFF;
+}
+
+.store {
+    padding-top: 29px;
+}
+
+.style {
+    padding-top: 29px;
+}
+
+.develop {
+    padding-top: 29px;
+}
